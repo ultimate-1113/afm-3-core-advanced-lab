@@ -1,0 +1,290 @@
+{
+  "png_count": 6,
+  "images": [
+    {
+      "file": "visual_1.png",
+      "sha256": "7cbb1579cd28dc1219a46d68e3e1c0a32a4168fd44eddc25aa3d0e33ed77c92e",
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13
+        },
+        {
+          "type": "sRGB",
+          "length": 1
+        },
+        {
+          "type": "eXIf",
+          "length": 56
+        },
+        {
+          "type": "IDAT",
+          "length": 16384
+        },
+        {
+          "type": "IDAT",
+          "length": 16384
+        },
+        {
+          "type": "IDAT",
+          "length": 2895
+        },
+        {
+          "type": "IEND",
+          "length": 0
+        }
+      ],
+      "exif_dimensions": [
+        {
+          "tag": "0xa002",
+          "value": 900
+        },
+        {
+          "tag": "0xa003",
+          "value": 480
+        }
+      ],
+      "findings": [],
+      "dimensions": [
+        900,
+        480
+      ],
+      "passed": true
+    },
+    {
+      "file": "visual_2.png",
+      "sha256": "4ab3620068c686107283d6d7a68a0e68bc7d377c7fba243615f46d7e68ba4913",
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13
+        },
+        {
+          "type": "sRGB",
+          "length": 1
+        },
+        {
+          "type": "eXIf",
+          "length": 56
+        },
+        {
+          "type": "IDAT",
+          "length": 16384
+        },
+        {
+          "type": "IDAT",
+          "length": 13466
+        },
+        {
+          "type": "IEND",
+          "length": 0
+        }
+      ],
+      "exif_dimensions": [
+        {
+          "tag": "0xa002",
+          "value": 900
+        },
+        {
+          "tag": "0xa003",
+          "value": 480
+        }
+      ],
+      "findings": [],
+      "dimensions": [
+        900,
+        480
+      ],
+      "passed": true
+    },
+    {
+      "file": "visual_3.png",
+      "sha256": "f6ed48b559301c490abc0de63a2bb54d35933196c94b1026f123104ee145f7b6",
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13
+        },
+        {
+          "type": "sRGB",
+          "length": 1
+        },
+        {
+          "type": "eXIf",
+          "length": 56
+        },
+        {
+          "type": "IDAT",
+          "length": 16384
+        },
+        {
+          "type": "IDAT",
+          "length": 11608
+        },
+        {
+          "type": "IEND",
+          "length": 0
+        }
+      ],
+      "exif_dimensions": [
+        {
+          "tag": "0xa002",
+          "value": 900
+        },
+        {
+          "tag": "0xa003",
+          "value": 480
+        }
+      ],
+      "findings": [],
+      "dimensions": [
+        900,
+        480
+      ],
+      "passed": true
+    },
+    {
+      "file": "visual_4.png",
+      "sha256": "c1466604d5578b6a95d688219a96ce4f44957892d926fdd36a70f1172ab01d4f",
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13
+        },
+        {
+          "type": "sRGB",
+          "length": 1
+        },
+        {
+          "type": "eXIf",
+          "length": 56
+        },
+        {
+          "type": "IDAT",
+          "length": 16384
+        },
+        {
+          "type": "IDAT",
+          "length": 7921
+        },
+        {
+          "type": "IEND",
+          "length": 0
+        }
+      ],
+      "exif_dimensions": [
+        {
+          "tag": "0xa002",
+          "value": 900
+        },
+        {
+          "tag": "0xa003",
+          "value": 480
+        }
+      ],
+      "findings": [],
+      "dimensions": [
+        900,
+        480
+      ],
+      "passed": true
+    },
+    {
+      "file": "visual_5.png",
+      "sha256": "f8bd3e4eed9d35cc89a450c4bc26ca7e77c523dd95aee6e2f48c5eefcfe109aa",
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13
+        },
+        {
+          "type": "sRGB",
+          "length": 1
+        },
+        {
+          "type": "eXIf",
+          "length": 56
+        },
+        {
+          "type": "IDAT",
+          "length": 16384
+        },
+        {
+          "type": "IDAT",
+          "length": 12225
+        },
+        {
+          "type": "IEND",
+          "length": 0
+        }
+      ],
+      "exif_dimensions": [
+        {
+          "tag": "0xa002",
+          "value": 900
+        },
+        {
+          "tag": "0xa003",
+          "value": 480
+        }
+      ],
+      "findings": [],
+      "dimensions": [
+        900,
+        480
+      ],
+      "passed": true
+    },
+    {
+      "file": "visual_6.png",
+      "sha256": "faee16105ee3928a0f4bf48d2d4625165049fafe5067495bfefebcaedfb4d2d2",
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13
+        },
+        {
+          "type": "sRGB",
+          "length": 1
+        },
+        {
+          "type": "eXIf",
+          "length": 56
+        },
+        {
+          "type": "IDAT",
+          "length": 16384
+        },
+        {
+          "type": "IDAT",
+          "length": 16384
+        },
+        {
+          "type": "IDAT",
+          "length": 2144
+        },
+        {
+          "type": "IEND",
+          "length": 0
+        }
+      ],
+      "exif_dimensions": [
+        {
+          "tag": "0xa002",
+          "value": 900
+        },
+        {
+          "tag": "0xa003",
+          "value": 480
+        }
+      ],
+      "findings": [],
+      "dimensions": [
+        900,
+        480
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

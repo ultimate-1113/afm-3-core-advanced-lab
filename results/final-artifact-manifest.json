@@ -1,5 +1,5 @@
 {
-  "captured_utc": "2026-10-01T16:54:23.261921+00:00",
+  "captured_utc": "2026-10-01T17:29:16.585536+00:00",
   "root": ".",
   "installed_sdk_version": "0.2.1",
   "required_sdk_version": "0.2.1",
@@ -21,8 +21,8 @@
       "sha256": "e04b175605bd8949b968dc4f52cd6eac72aa52cf1093fe286577085eb8340929"
     },
     "README.md": {
-      "bytes": 7090,
-      "sha256": "64133ed3f0ad8b7436ab8f1468504260f9f1d02480ca4c9e17a22134294f41ff"
+      "bytes": 8111,
+      "sha256": "f35263b835791f607e6c0cbfd13b6468bdc1bb95168a4031841cc59397164f20"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2331,
@@ -113,8 +113,8 @@
       "sha256": "7670f18f3c3db510b7381c7e7f2c9232710205e0128148e800ef9e89dc82085b"
     },
     "reports/publication-audit.md": {
-      "bytes": 2616,
-      "sha256": "944b1ee6123c5ab3ca16af897fe536e9bb18eae9b8e490238970b02da709fc16"
+      "bytes": 3231,
+      "sha256": "28769e55cce270b8a0bf33d43f18a4e310131be9124fa31b2f06cf192ebd16cc"
     },
     "reports/recommendations.md": {
       "bytes": 4717,
@@ -192,6 +192,10 @@
       "bytes": 3924,
       "sha256": "4771912d4aa195e65b2a4d06a74414eeed6614df470d30ab989c17958ab50a9d"
     },
+    "results/png-metadata-audit.json": {
+      "bytes": 5318,
+      "sha256": "6a88891dcba0d6403dc0cab21de4b87a082a38eef7deb026b09236231e6ff1ff"
+    },
     "results/publication-verification.json": {
       "bytes": 325,
       "sha256": "1f0cc2dab7394bd6400c258b7ab9b0f40ecf6233f83b9952c18809755558ec38"
@@ -264,9 +268,13 @@
       "bytes": 17554,
       "sha256": "5e35209e1cb780d0d2796733593e1ec243fcda65f6f986f8db9da3ee0c0cd0ec"
     },
+    "scripts/png_audit.py": {
+      "bytes": 9166,
+      "sha256": "92a5d11b60ecbe985c3692e39d8173fc1a7ce365459c18ec5f7fa31019d329ed"
+    },
     "scripts/privacy_audit.py": {
-      "bytes": 2119,
-      "sha256": "31a4406fd9154e2c4bab74ac0599bb48185bbed698e8821600776f1531d270bb"
+      "bytes": 2433,
+      "sha256": "eb689866e1197329c78a8fb569472e43d51884389af986df4b6b987a2467bc0d"
     },
     "scripts/report.py": {
       "bytes": 19484,
@@ -295,6 +303,10 @@
     "scripts/snapshot.py": {
       "bytes": 1883,
       "sha256": "63cf288407a2afaca9fd04359a0b8ec5776e02175f51d2d887487b70e5c8fc8e"
+    },
+    "scripts/test_png_audit.py": {
+      "bytes": 4784,
+      "sha256": "a6fa2755fbde63c35d8ab7efaeeef47653de6bf546bbc87b5cf0d1440019bd21"
     },
     "src/Runner.swift": {
       "bytes": 14751,

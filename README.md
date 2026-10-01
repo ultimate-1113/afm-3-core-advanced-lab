@@ -42,6 +42,8 @@ cd afm-3-core-advanced-lab
 zsh scripts/setup.sh
 .venv/bin/python scripts/audit.py
 .venv/bin/python scripts/privacy_audit.py
+.venv/bin/python scripts/png_audit.py data/images
+.venv/bin/python scripts/test_png_audit.py
 printf '%s\n' '{"id":"demo","prompt":"日本の首都を都市名だけで答えてください。","max_tokens":32}' | bin/afm-runner
 ```
 
@@ -87,3 +89,9 @@ TTFTは最初の可視テキスト／構造スナップショットまでで、�
 - [公開前確認と正規化](reports/publication-audit.md)
 
 モデル資産の抽出・改変、private API、ガードレールの回避、別AIモデルの学習・改善への出力利用は検証対象に含みません。表・ファイル操作は許可した通常コードと合成ファイルだけを使用し、生成コードは実行しません。
+
+## PNG metadata gate
+
+`privacy_audit.py`はPNGをスキップせず、チャンクのCRCと終端、tEXt／iTXt／zTXt（圧縮含む）、EXIFを検査します。テキスト、ICC、時刻、未知のチャンク、画像サイズ以外のEXIFは要確認として非ゼロ終了します。公開済み6枚のEXIFは900×480の寸法だけで、個人パス・ソフト名はありませんでした。PNGの色や画素は変更しません。
+
+検出したメタデータ値はログへ表示しません。構造不正・未解析データも合格扱いにせず、サイズと展開量に上限を設けます。これはメタデータ検査であり、画像に描かれた文字やステガノグラフィーの検出ではありません。検査対象外のJPEGも要確認で止めます。[検査記録](results/png-metadata-audit.json)と[PNG仕様](https://www.w3.org/TR/png-3/)を参照してください。

@@ -1,6 +1,7 @@
 """Scan publishable files without printing potentially sensitive matched values."""
 import argparse, json, re, subprocess
 from pathlib import Path
+from png_audit import audit_file
 
 ROOT=Path(__file__).resolve().parents[1]
 SKIP={'.git','.venv','build','bin','__pycache__'}
@@ -28,7 +29,12 @@ def main():
         name=str(path.relative_to(ROOT));scanned+=1
         if path.is_symlink() or not path.is_file():
             findings.append({'file':name,'kind':'unexpected-symlink-or-directory'});continue
-        if path.suffix in ['.png','.jpg','.jpeg']:continue
+        if path.suffix.lower()=='.png':
+            image=audit_file(path)
+            findings.extend(dict(file=name,**finding) for finding in image['findings'])
+            continue
+        if path.suffix.lower() in ['.jpg','.jpeg']:
+            findings.append({'file':name,'kind':'unsupported-image-metadata-requires-review'});continue
         try:text=path.read_text()
         except UnicodeDecodeError:
             findings.append({'file':name,'kind':'unexpected-binary'});continue
