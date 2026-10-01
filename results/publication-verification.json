@@ -1,0 +1,16 @@
+{
+  "model": {
+    "available": true,
+    "context": 8192,
+    "guided": true,
+    "reasoning": false,
+    "tools": true,
+    "variant": "AFM 3 Core Advanced",
+    "vision": true
+  },
+  "status": "ok",
+  "text": "東京",
+  "case_summary_matches_original": true,
+  "log_content_preserved": true,
+  "time": 1790873514.89096
+}

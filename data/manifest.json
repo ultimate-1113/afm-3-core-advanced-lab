@@ -1,0 +1,34 @@
+{
+  "wide": {
+    "count": 60,
+    "sha256": "f81f1d34fb0551f560569d74d08e0193534389a5b82233b845a479d6ef2d862e"
+  },
+  "regressions": {
+    "count": 6,
+    "sha256": "63996755efd200fe22c765cf900faa8be68813baebe22c65635590f087fb4bec"
+  },
+  "extraction-dev": {
+    "count": 10,
+    "sha256": "44068b472b830d9540a8fddc09428d24bcdcef1edb5723cb8199bc52efa7e724"
+  },
+  "extraction-heldout": {
+    "count": 30,
+    "sha256": "1c100b8a06db94bbb52a4c1cf3b301a47e922f14f1a80608d1064272134cad7c"
+  },
+  "table-dev": {
+    "count": 10,
+    "sha256": "d8e1cf9ed5a4b2d6f6f5815d8b3fc9bd9ddf41808e187cbddb75afd9354988d2"
+  },
+  "table-heldout": {
+    "count": 30,
+    "sha256": "76bbc9f8de11fc676255fbfb373d19279fb149566dd7461e0c0af9673c3f3dae"
+  },
+  "diff-dev": {
+    "count": 10,
+    "sha256": "a1163aefa9839997512fdd9727ee40ff1685bb70fa21355ebe9d13309f3cc8cc"
+  },
+  "diff-heldout": {
+    "count": 30,
+    "sha256": "a021b32c43e76eea4d4ff22370addb7bb05a1377b22a9bc20f035a840f775566"
+  }
+}

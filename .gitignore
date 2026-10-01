@@ -1,0 +1,16 @@
+.DS_Store
+.venv
+.venv/
+build/
+bin/
+__pycache__/
+*.py[cod]
+*.sock
+*.dylib
+*.a
+data/file-demo/
+.env
+.env.*
+.secrets/
+*.pem
+*.key

@@ -1,0 +1,30 @@
+{
+  "hardware": {
+    "machine_name": "Mac mini",
+    "chip_type": "Apple M6",
+    "physical_memory": "32 GB"
+  },
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0.1\nBuildVersion:\t\t26A434\n",
+  "python": "3.12.14",
+  "sdk": "0.2.1",
+  "swift": "Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)\nTarget: arm64-apple-macosx27.0.0\n",
+  "source_sha256": {
+    "src/Runner.swift": "d5140eb96323630fecb73c575204c24511a38e3dba74521ad01e7109ad828dd5",
+    "scripts/audit.py": "2bb5ab95d5865989d7ea3366a41dfab2d65986bd310756052d873ac70942348b",
+    "scripts/sdk_route.py": "8fcbd4546e3ef16e2ca270b96980bf70c6057a6a002b4a4bb15a33954a5c212f",
+    "scripts/cases.py": "18582dba6fec31e83c3e25c0dea08da452e43ab2f408a8b3973996cad52b64d0",
+    "scripts/runtime.py": "14422dfeab1dad2dca25ef96562dae173d942aaf9637e0bdf8420fb5481c36bb",
+    "scripts/report.py": "1333c4f411f89aa56e9dfee031c6ec58a1fc0920e5bfce233d340b416bf53fa2",
+    "scripts/lab.py": "0a5ec0c4f090b93e5306e0ea342ac9cbb3081647647d61db3de4445879c5af9c"
+  },
+  "storage": {
+    "nominal_internal_ssd_gb": 256,
+    "diskutil_total_size_bytes": 251000193024,
+    "internal": true,
+    "solid_state": true,
+    "model_assets": "OS-managed internal storage (confirmed by user)",
+    "lab_code_inputs_logs": "external SSD during measurement",
+    "confirmed_date": "2026-10-02",
+    "notes": "Storage specification added at publication; SSD cold-load time was not isolated."
+  }
+}

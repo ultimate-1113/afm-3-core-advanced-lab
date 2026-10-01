@@ -1,0 +1,131 @@
+{
+  "rule": "10 dev cases only; greatest joint format/schema/semantic/completion pass count, then lower median E2E. Heldout not read.",
+  "time": 1790867473.941529,
+  "selection": {
+    "extraction": {
+      "baseline": {
+        "n": 10,
+        "passed": 7,
+        "semantic": 7,
+        "json": 10,
+        "schema": 10,
+        "complete": 10,
+        "median_e2e_s": 1.0730694374942686,
+        "median_ttft_s": 0.43457902084628586
+      },
+      "candidates": {
+        "guided": {
+          "n": 10,
+          "passed": 7,
+          "semantic": 7,
+          "json": 10,
+          "schema": 10,
+          "complete": 10,
+          "median_e2e_s": 0.9563411669951165,
+          "median_ttft_s": 0.27793910418404266
+        },
+        "fewshot": {
+          "n": 10,
+          "passed": 7,
+          "semantic": 7,
+          "json": 10,
+          "schema": 10,
+          "complete": 10,
+          "median_e2e_s": 1.1231826045113849,
+          "median_ttft_s": 0.3563083958288189
+        },
+        "split": {
+          "n": 10,
+          "passed": 7,
+          "semantic": 7,
+          "json": 10,
+          "schema": 10,
+          "complete": 10,
+          "median_e2e_s": 1.303251208504662,
+          "median_ttft_s": 0.32484191667754203
+        }
+      },
+      "chosen": "guided"
+    },
+    "table": {
+      "baseline": {
+        "n": 10,
+        "passed": 4,
+        "semantic": 5,
+        "json": 10,
+        "schema": 9,
+        "complete": 10,
+        "median_e2e_s": 0.45840568700805306,
+        "median_ttft_s": 0.34017556249455083
+      },
+      "candidates": {
+        "guided": {
+          "n": 10,
+          "passed": 5,
+          "semantic": 5,
+          "json": 10,
+          "schema": 10,
+          "complete": 10,
+          "median_e2e_s": 0.5029835415189154,
+          "median_ttft_s": 0.3938731041707797
+        },
+        "delegated": {
+          "n": 10,
+          "passed": 3,
+          "semantic": 3,
+          "json": 10,
+          "schema": 10,
+          "complete": 10,
+          "median_e2e_s": 0.6530469789868221,
+          "median_ttft_s": 0.384889604174532
+        },
+        "delegated_examples": {
+          "n": 10,
+          "passed": 6,
+          "semantic": 6,
+          "json": 10,
+          "schema": 10,
+          "complete": 10,
+          "median_e2e_s": 1.065641000008327,
+          "median_ttft_s": 0.32964275001722854
+        }
+      },
+      "chosen": "delegated_examples"
+    },
+    "diff": {
+      "baseline": {
+        "n": 10,
+        "passed": 1,
+        "semantic": 2,
+        "json": 9,
+        "schema": 3,
+        "complete": 10,
+        "median_e2e_s": 0.7698239789897343,
+        "median_ttft_s": 0.5595843958290061
+      },
+      "candidates": {
+        "guided": {
+          "n": 10,
+          "passed": 7,
+          "semantic": 7,
+          "json": 10,
+          "schema": 10,
+          "complete": 10,
+          "median_e2e_s": 0.3139369999844348,
+          "median_ttft_s": 0.2032946458348306
+        },
+        "fewshot": {
+          "n": 10,
+          "passed": 9,
+          "semantic": 9,
+          "json": 10,
+          "schema": 10,
+          "complete": 10,
+          "median_e2e_s": 0.5087614795047557,
+          "median_ttft_s": 0.3968880000029458
+        }
+      },
+      "chosen": "fewshot"
+    }
+  }
+}

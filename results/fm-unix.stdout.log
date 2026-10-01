@@ -1,0 +1,21 @@
+Apple Foundation Models Serve
+  socket <LAB_ROOT>/results/fm-lab.sock
+
+  · POST /v1/chat/completions
+  · GET  /v1/models
+  · GET  /health
+
+  · listening on <LAB_ROOT>/results/fm-lab.sock  (press Ctrl+C to stop)
+0:19:48 · [GET]  · /health · 200
+0:19:48 · [POST] · /v1/chat/completions · system
+0:19:48 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 278ms
+0:19:48 · [POST] · /v1/chat/completions · system
+0:19:49 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 1.0s
+0:19:49 · [POST] · /v1/chat/completions · system
+0:19:50 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 1.0s
+0:19:50 · [POST] · /v1/chat/completions · system
+0:19:51 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 279ms
+0:19:51 · [POST] · /v1/chat/completions · system
+0:19:51 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 770ms
+
+  · shutting down

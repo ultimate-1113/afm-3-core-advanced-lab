@@ -1,0 +1,22 @@
+Apple Foundation Models Serve
+  url    http://127.0.0.1:19876
+  access loopback-only
+
+  · POST /v1/chat/completions
+  · GET  /v1/models
+  · GET  /health
+
+  · listening on http://127.0.0.1:19876  (press Ctrl+C to stop)
+0:19:37 · [GET]  · /health · 200
+0:19:39 · [POST] · /v1/chat/completions · system
+0:19:40 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 287ms
+0:19:41 · [POST] · /v1/chat/completions · system
+0:19:41 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 277ms
+0:19:43 · [POST] · /v1/chat/completions · system
+0:19:44 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 281ms
+0:19:45 · [POST] · /v1/chat/completions · system
+0:19:46 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 1.0s
+0:19:48 · [POST] · /v1/chat/completions · system
+0:19:48 · [POST] · /v1/chat/completions · 200 · system · 96→19 tokens · 277ms
+
+  · shutting down

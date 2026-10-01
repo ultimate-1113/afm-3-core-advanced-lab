@@ -1,0 +1,287 @@
+{
+  "screen": {
+    "japanese": {
+      "n": 6,
+      "passed": 5,
+      "semantic": 6,
+      "json": 5,
+      "schema": 2,
+      "complete": 6,
+      "median_e2e_s": 0.5051197295106249,
+      "median_ttft_s": 0.3474711458256934
+    },
+    "extraction": {
+      "n": 6,
+      "passed": 3,
+      "semantic": 3,
+      "json": 6,
+      "schema": 6,
+      "complete": 6,
+      "median_e2e_s": 0.8973495205136715,
+      "median_ttft_s": 0.6828809375147102
+    },
+    "classification": {
+      "n": 6,
+      "passed": 5,
+      "semantic": 5,
+      "json": 6,
+      "schema": 6,
+      "complete": 6,
+      "median_e2e_s": 0.27105693699559197,
+      "median_ttft_s": 0.1933690416481113
+    },
+    "search": {
+      "n": 6,
+      "passed": 5,
+      "semantic": 5,
+      "json": 6,
+      "schema": 0,
+      "complete": 6,
+      "median_e2e_s": 0.6445979790150886,
+      "median_ttft_s": 0.33463508333079517
+    },
+    "grounded": {
+      "n": 6,
+      "passed": 4,
+      "semantic": 5,
+      "json": 6,
+      "schema": 5,
+      "complete": 6,
+      "median_e2e_s": 0.9986756040016189,
+      "median_ttft_s": 0.7630727916694013
+    },
+    "table": {
+      "n": 6,
+      "passed": 1,
+      "semantic": 2,
+      "json": 3,
+      "schema": 2,
+      "complete": 6,
+      "median_e2e_s": 0.5489320000051521,
+      "median_ttft_s": 0.3937734999926761
+    },
+    "image": {
+      "n": 6,
+      "passed": 4,
+      "semantic": 5,
+      "json": 6,
+      "schema": 5,
+      "complete": 6,
+      "median_e2e_s": 0.694561687996611,
+      "median_ttft_s": 0.4319700416526757
+    },
+    "diff": {
+      "n": 6,
+      "passed": 1,
+      "semantic": 2,
+      "json": 6,
+      "schema": 2,
+      "complete": 6,
+      "median_e2e_s": 0.4812883750128094,
+      "median_ttft_s": 0.2036742291675182
+    },
+    "creative": {
+      "n": 6,
+      "passed": 2,
+      "semantic": 5,
+      "json": 3,
+      "schema": 0,
+      "complete": 6,
+      "median_e2e_s": 0.36439372900349554,
+      "median_ttft_s": 0.2579563750041416
+    },
+    "tools": {
+      "n": 6,
+      "passed": 0,
+      "semantic": 4,
+      "json": 6,
+      "schema": 5,
+      "complete": 6,
+      "median_e2e_s": 0.5045619169977726,
+      "median_ttft_s": 0.38803877084865235
+    }
+  },
+  "heldout": {
+    "extraction": {
+      "baseline": {
+        "n": 30,
+        "passed": 21,
+        "semantic": 21,
+        "json": 30,
+        "schema": 30,
+        "complete": 30,
+        "median_e2e_s": 0.9190892289916519,
+        "median_ttft_s": 0.36109574999136385
+      },
+      "guided": {
+        "n": 30,
+        "passed": 20,
+        "semantic": 20,
+        "json": 30,
+        "schema": 30,
+        "complete": 30,
+        "median_e2e_s": 0.9571299585077213,
+        "median_ttft_s": 0.2758792916574748
+      }
+    },
+    "table": {
+      "baseline": {
+        "n": 30,
+        "passed": 14,
+        "semantic": 14,
+        "json": 30,
+        "schema": 27,
+        "complete": 30,
+        "median_e2e_s": 0.38840043800882995,
+        "median_ttft_s": 0.28066037500684615
+      },
+      "delegated_examples": {
+        "n": 30,
+        "passed": 18,
+        "semantic": 18,
+        "json": 30,
+        "schema": 30,
+        "complete": 30,
+        "median_e2e_s": 1.1093522500013933,
+        "median_ttft_s": 0.4442913333477918
+      }
+    },
+    "diff": {
+      "baseline": {
+        "n": 30,
+        "passed": 6,
+        "semantic": 9,
+        "json": 28,
+        "schema": 8,
+        "complete": 30,
+        "median_e2e_s": 0.671780562508502,
+        "median_ttft_s": 0.4630359166767448
+      },
+      "fewshot": {
+        "n": 30,
+        "passed": 29,
+        "semantic": 29,
+        "json": 30,
+        "schema": 30,
+        "complete": 30,
+        "median_e2e_s": 0.3690016874897992,
+        "median_ttft_s": 0.26823445834452286
+      }
+    }
+  },
+  "runtime": {
+    "cache-fresh": {
+      "n": 3,
+      "median_ttft_s": 0.8620706250076182,
+      "median_e2e_s": 0.9807380829879548
+    },
+    "cache-prewarm": {
+      "n": 3,
+      "median_ttft_s": 0.7057472916494589,
+      "median_e2e_s": 2.0362218329973985
+    },
+    "cache-continue": {
+      "n": 3,
+      "median_ttft_s": 0.637557874986669,
+      "median_e2e_s": 0.8014078330015764
+    },
+    "cache-restore": {
+      "n": 3,
+      "median_ttft_s": 0.3839135833259206,
+      "median_e2e_s": 0.533991167001659
+    },
+    "route-swift": {
+      "n": 5,
+      "median_ttft_s": 0.2982811666734051,
+      "median_e2e_s": 0.4069958749751095
+    },
+    "route-sdk": {
+      "n": 5,
+      "median_ttft_s": 0.4777790000080131,
+      "median_e2e_s": 0.586398207989987
+    },
+    "route-fm": {
+      "n": 5,
+      "median_ttft_s": null,
+      "median_e2e_s": 0.5521519169851672
+    },
+    "route-serve-tcp": {
+      "n": 5,
+      "median_ttft_s": 0.222626249975292,
+      "median_e2e_s": 0.2810193749901373
+    },
+    "route-serve-unix": {
+      "n": 5,
+      "median_ttft_s": 0.704819958016742,
+      "median_e2e_s": 0.7698049170139711
+    },
+    "processing-full": {
+      "n": 3,
+      "median_ttft_s": 1.567057374981232,
+      "median_e2e_s": 3.177982500026701
+    },
+    "processing-pruned": {
+      "n": 3,
+      "median_ttft_s": 0.3633360000094399,
+      "median_e2e_s": 0.857337749999715
+    },
+    "processing-split-date": {
+      "n": 3,
+      "median_ttft_s": 0.6870204999868292,
+      "median_e2e_s": 1.2785496249853168
+    },
+    "processing-split-people": {
+      "n": 3,
+      "median_ttft_s": 0.22927270832587965,
+      "median_e2e_s": 0.4475854999909643
+    },
+    "result-cache-miss": {
+      "n": 1,
+      "median_ttft_s": 0.22858504168107174,
+      "median_e2e_s": 0.35156424998422153
+    },
+    "result-cache-hit": {
+      "n": 1,
+      "median_ttft_s": null,
+      "median_e2e_s": 0.16726062499219552
+    }
+  },
+  "quality_case_runs": 380,
+  "files": {
+    "n": 6,
+    "passed": 2,
+    "semantic": 2,
+    "json": 6,
+    "schema": 6,
+    "complete": 6,
+    "median_e2e_s": 1.2347592084988719,
+    "median_ttft_s": 0.7634658125025453
+  },
+  "resources": {
+    "samples": 66,
+    "max_observed_process_rss_kib": 1431456,
+    "max_observed_process_cpu_percent": 69.0
+  },
+  "retry": [
+    {
+      "kind": "explicit-retry-after-test-cancel",
+      "status": "ok",
+      "attempts": 1
+    },
+    {
+      "kind": "injected-transport-retry",
+      "status": "ok",
+      "attempts": 2
+    },
+    {
+      "kind": "context-error-no-retry",
+      "status": "error",
+      "attempts": 1
+    },
+    {
+      "kind": "injected-transport-exhaustion",
+      "status": "retry-exhausted",
+      "attempts": 2
+    }
+  ]
+}
