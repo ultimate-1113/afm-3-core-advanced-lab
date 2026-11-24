@@ -1,0 +1,84 @@
+{
+  "system": {
+    "plain": {
+      "exact": 4,
+      "held": 0,
+      "wrong_applied": 8,
+      "collateral": 6,
+      "lost_other_edit": 6,
+      "calls": 12,
+      "n": 12,
+      "median_active_s": 0.7790762145916137
+    },
+    "full": {
+      "exact": 4,
+      "held": 0,
+      "wrong_applied": 8,
+      "collateral": 7,
+      "lost_other_edit": 6,
+      "calls": 12,
+      "n": 12,
+      "median_active_s": 0.6488694683951415
+    },
+    "patch": {
+      "exact": 6,
+      "held": 5,
+      "wrong_applied": 1,
+      "collateral": 1,
+      "lost_other_edit": 0,
+      "calls": 12,
+      "n": 12,
+      "median_active_s": 0.7972076471825562
+    },
+    "full_hold": {
+      "exact": 3,
+      "held": 9,
+      "wrong_applied": 0,
+      "collateral": 0,
+      "lost_other_edit": 0,
+      "calls": 12,
+      "n": 12,
+      "median_active_s": 0.6488666353951416
+    },
+    "patch_hold": {
+      "exact": 3,
+      "held": 9,
+      "wrong_applied": 0,
+      "collateral": 0,
+      "lost_other_edit": 0,
+      "calls": 12,
+      "n": 12,
+      "median_active_s": 0.7972022306825561
+    },
+    "full_read": {
+      "exact": 7,
+      "held": 0,
+      "wrong_applied": 5,
+      "collateral": 3,
+      "lost_other_edit": 2,
+      "calls": 21,
+      "n": 12,
+      "median_active_s": 1.2711710375252685
+    },
+    "patch_read": {
+      "exact": 8,
+      "held": 0,
+      "wrong_applied": 4,
+      "collateral": 2,
+      "lost_other_edit": 0,
+      "calls": 21,
+      "n": 12,
+      "median_active_s": 1.30067466771698
+    },
+    "rules_read": {
+      "exact": 12,
+      "held": 0,
+      "wrong_applied": 0,
+      "collateral": 0,
+      "lost_other_edit": 0,
+      "calls": 0,
+      "n": 12,
+      "median_active_s": 4.353999999999816e-06
+    }
+  }
+}

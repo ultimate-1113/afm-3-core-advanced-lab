@@ -1,0 +1,8 @@
+{
+  "run_sha256": "c6a0fba6794c0325f8b4e56829337c3755e6e6a48e1a5ed7473c85a14302377a",
+  "reason": "The generation command returned quota reached while both status queries reported Available. Recognize that message and hold PCC until a later date.",
+  "original_protocol": "8a3979608389c10e8567a1d22a00b7c7f84904c3e1aa2165f8199bcad9610eef",
+  "launcher_sha256": "2433acb3f1e7a43607f48f4c2a71680517ec6074c4d69da1483132ea1db6fe22",
+  "quota_only_transport_sha256": "e0b470c06a8a905d0de765ca2d5dc26ab5a145ceb65c62ee7ef1d10f18fcf941",
+  "additional_change": "Shared transport with independent edit panel. Primary generation requests and scoring are unchanged."
+}

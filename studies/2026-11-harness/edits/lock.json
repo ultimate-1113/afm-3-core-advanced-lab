@@ -1,0 +1,12 @@
+{
+  "design.md": "147871d56881c3e8ad3bf32ee7c2e5a91ac842ec875ca6153e424f93e9e48f3c",
+  "sheet.py": "39a7461f4c3d737e32aef9b06806a9b2add883cabf7179aea9d11b99eb797956",
+  "run.py": "afdf326dddf00f7f58b34bf52db1830d39dd2be6e00c443131c57a3da78fae1b",
+  "report.py": "b361807765d5b2d7b6dc2f055ee10264665b056ce0a3e77879dd0e2b2f10b60f",
+  "Run Edits.command": "68abcec9d351b354bd958394e097a77ef8930397047eac7d8569d8c4c83a51c0",
+  "fixtures/inputs.jsonl": "73a20d40c2c1598a7b1b37a18c5e8d8d57f140bc236a91357d444d419f79bfe1",
+  "fixtures/answers.jsonl": "ceccb9f3ac702ceea6b52fbf4eb89f279726e74c18ecd62af5b80a8518992bb9",
+  "../Run Harness.command": "2433acb3f1e7a43607f48f4c2a71680517ec6074c4d69da1483132ea1db6fe22",
+  "../run.py": "c6a0fba6794c0325f8b4e56829337c3755e6e6a48e1a5ed7473c85a14302377a",
+  "../protocol.py": "439f95d40113cfae9b1cc8fb4bcf5487d898d74d7f37010200c8ec37953618bc"
+}

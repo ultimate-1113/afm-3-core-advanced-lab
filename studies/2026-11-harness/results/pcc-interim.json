@@ -1,0 +1,230 @@
+{
+  "completed_all_methods": [
+    "allocation-05",
+    "allocation-06",
+    "allocation-07",
+    "allocation-08",
+    "allocation-10",
+    "timeline-02",
+    "timeline-04",
+    "timeline-10",
+    "timeline-12",
+    "invoice-02",
+    "invoice-03",
+    "invoice-06"
+  ],
+  "started_cases": [
+    "allocation-05",
+    "allocation-06",
+    "allocation-07",
+    "allocation-08",
+    "allocation-10",
+    "invoice-02",
+    "invoice-03",
+    "invoice-05",
+    "invoice-06",
+    "timeline-02",
+    "timeline-04",
+    "timeline-10",
+    "timeline-12"
+  ],
+  "calls": 61,
+  "common": {
+    "system": {
+      "plain": {
+        "n": 12,
+        "exact": 1,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 0,
+          "both": 1,
+          "neither": 11
+        },
+        "median_cli_ocr_s": 0.4762575626373291
+      },
+      "schema": {
+        "n": 12,
+        "exact": 1,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 0,
+          "both": 1,
+          "neither": 11
+        },
+        "median_cli_ocr_s": 0.4784200191497803
+      },
+      "review": {
+        "n": 12,
+        "exact": 0,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 1,
+          "both": 0,
+          "neither": 11
+        },
+        "median_cli_ocr_s": 0.9678250551223755
+      },
+      "feedback": {
+        "n": 12,
+        "exact": 1,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 0,
+          "both": 1,
+          "neither": 11
+        },
+        "median_cli_ocr_s": 0.9724973440170288
+      },
+      "guard": {
+        "n": 12,
+        "exact": 1,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 0,
+          "both": 1,
+          "neither": 11
+        },
+        "median_cli_ocr_s": 0.9724973440170288
+      },
+      "program": {
+        "n": 12,
+        "exact": 7,
+        "versus_plain": {
+          "n": 12,
+          "gain": 7,
+          "loss": 1,
+          "both": 0,
+          "neither": 4
+        },
+        "median_cli_ocr_s": 0.5853896141052246
+      },
+      "code": {
+        "n": 12,
+        "exact": 12,
+        "versus_plain": {
+          "n": 12,
+          "gain": 11,
+          "loss": 0,
+          "both": 1,
+          "neither": 0
+        },
+        "median_cli_ocr_s": 0.0
+      },
+      "rows": {
+        "n": 3,
+        "exact": 1,
+        "versus_plain": {
+          "n": 3,
+          "gain": 1,
+          "loss": 0,
+          "both": 0,
+          "neither": 2
+        },
+        "median_cli_ocr_s": 1.0417874233934334
+      }
+    },
+    "pcc": {
+      "plain": {
+        "n": 12,
+        "exact": 4,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 0,
+          "both": 4,
+          "neither": 8
+        },
+        "median_cli_ocr_s": 0.767807126045227
+      },
+      "schema": {
+        "n": 12,
+        "exact": 2,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 2,
+          "both": 2,
+          "neither": 8
+        },
+        "median_cli_ocr_s": 0.9607394933700562
+      },
+      "review": {
+        "n": 12,
+        "exact": 2,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 2,
+          "both": 2,
+          "neither": 8
+        },
+        "median_cli_ocr_s": 1.747851014137268
+      },
+      "feedback": {
+        "n": 12,
+        "exact": 2,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 2,
+          "both": 2,
+          "neither": 8
+        },
+        "median_cli_ocr_s": 1.217278003692627
+      },
+      "guard": {
+        "n": 12,
+        "exact": 2,
+        "versus_plain": {
+          "n": 12,
+          "gain": 0,
+          "loss": 2,
+          "both": 2,
+          "neither": 8
+        },
+        "median_cli_ocr_s": 1.217278003692627
+      },
+      "program": {
+        "n": 12,
+        "exact": 12,
+        "versus_plain": {
+          "n": 12,
+          "gain": 8,
+          "loss": 0,
+          "both": 4,
+          "neither": 0
+        },
+        "median_cli_ocr_s": 1.05160445891571
+      },
+      "code": {
+        "n": 12,
+        "exact": 12,
+        "versus_plain": {
+          "n": 12,
+          "gain": 8,
+          "loss": 0,
+          "both": 4,
+          "neither": 0
+        },
+        "median_cli_ocr_s": 0.0
+      },
+      "rows": {
+        "n": 3,
+        "exact": 0,
+        "versus_plain": {
+          "n": 3,
+          "gain": 0,
+          "loss": 1,
+          "both": 0,
+          "neither": 2
+        },
+        "median_cli_ocr_s": 1.1836451475372307
+      }
+    }
+  }
+}

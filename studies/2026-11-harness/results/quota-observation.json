@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-24",
+  "os": "27.2.1 (26B131)",
+  "previous": {
+    "ok": 78,
+    "refusal": 1
+  },
+  "this_study_before_cutoff": {
+    "ok": 61
+  },
+  "successful_answers": 139,
+  "requests_before_quota": 140,
+  "quota_response_ordinal": 141,
+  "quota_before_display": "PCC: ✓ Available",
+  "quota_after_display": "PCC: ✓ Available",
+  "generation_failure": {
+    "model": "pcc",
+    "id": "invoice-05",
+    "method": "feedback",
+    "request_sha256": "a595034d8227f2f5db57e2bca48446bad416da23b17d734f1eb739f070be1c33",
+    "prep_s": 0.000777916,
+    "started": "2026-11-24T21:40:07+09:00",
+    "quota_before": "below",
+    "status": "quota_reached",
+    "exit": 1,
+    "text": "",
+    "transcript_model": null,
+    "first_stdout_s": null,
+    "cli_e2e_s": 0.052924156188964844,
+    "usage": null,
+    "quota_after": "below",
+    "diagnostic": "Your quota has been reached."
+  },
+  "actual_quota_accounting": null
+}

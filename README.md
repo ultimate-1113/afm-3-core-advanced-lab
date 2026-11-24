@@ -6,6 +6,8 @@ Preliminary findings and a reproducible command-line test app for **AFM 3 Core A
 
 ## 2026年11月の追補
 
+11月24日の追加試験では、同じ日本語の問題でモデルの直接回答と外部検証・コード実行を比較した。合成表の同時編集について、CodexとDeepSeek Harnessの公開実装を参考にした差分適用と読み直しも測定した。[ハーネスの実測結果](studies/2026-11-harness/findings.md)・[テストアプリ](studies/2026-11-harness/README.md)
+
 [Core Advancedの再検証とAFM 3 Cloudの初回評価](studies/2026-11/README.md)では、macOS 27.2.1で10月の192試行を再現し、日本語の予定抽出・納品照合・表更新・長文議事録を調べています。下記は10月の環境・結果です。
 
 ## Preliminary findings
