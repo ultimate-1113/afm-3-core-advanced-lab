@@ -2,6 +2,8 @@
 
 Core AdvancedとCloudに同じ問題を出し、モデル単体、構造化生成、機械検査、外部実行器を比較した。追加の12問では他者の編集が入る表を扱い、全文更新・文脈付き差分・読み直しを比較した。[結果と事例](findings.md)・[先行研究と公開実装](sources.md)
 
+表編集で残った誤適用を調べるため、Core Advancedで対象行の限定と書き込み直前の条件検査を試した。前回の12件と追加32件について、完了・誤適用・保留を記録した。[追試の結果と表編集CLI](edit-guard/README.md)
+
 ## 結果を再採点する
 
 macOSやモデルを使わず、Python 3.9以上で同梱の回答を検証できる。リポジトリのルートから実行する。
@@ -11,8 +13,10 @@ cd studies/2026-11-harness
 python3 -B report.py verify
 python3 -B partial.py verify
 python3 -B edits/report.py verify
+python3 -B edit-guard/study.py verify
 python3 -B test_harness.py
 python3 -B edits/test_edits.py
+python3 -B edit-guard/test_guard.py
 ```
 
 ## Apple Terminalで再実行する

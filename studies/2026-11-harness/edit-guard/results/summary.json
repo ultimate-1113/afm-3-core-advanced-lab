@@ -1,0 +1,291 @@
+{
+  "regression": {
+    "baseline": {
+      "n": 12,
+      "exact": 8,
+      "held": 0,
+      "correct_review": 0,
+      "wrong_accepted": 4,
+      "wrong_write": 4,
+      "wrong_no_write": 0,
+      "outside_target": 2,
+      "lost_other_edit": 0,
+      "calls": 21,
+      "gained": 0,
+      "lost": 0,
+      "median_active_s": 1.2997402927169799,
+      "holds": {}
+    },
+    "scope": {
+      "n": 12,
+      "exact": 7,
+      "held": 3,
+      "correct_review": 0,
+      "wrong_accepted": 2,
+      "wrong_write": 2,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 21,
+      "gained": 0,
+      "lost": 1,
+      "median_active_s": 1.29976548021698,
+      "holds": {
+        "multiple_edits": 3
+      }
+    },
+    "checked": {
+      "n": 12,
+      "exact": 7,
+      "held": 5,
+      "correct_review": 0,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 21,
+      "gained": 0,
+      "lost": 1,
+      "median_active_s": 1.29975595921698,
+      "holds": {
+        "multiple_edits": 3,
+        "condition_not_met": 2
+      }
+    },
+    "scoped": {
+      "n": 12,
+      "exact": 12,
+      "held": 0,
+      "correct_review": 0,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 19,
+      "gained": 4,
+      "lost": 0,
+      "median_active_s": 0.47977489600000073,
+      "holds": {}
+    },
+    "rules": {
+      "n": 12,
+      "exact": 12,
+      "held": 0,
+      "correct_review": 0,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 0,
+      "gained": 4,
+      "lost": 0,
+      "median_active_s": 1.131249999999917e-05,
+      "holds": {}
+    }
+  },
+  "actionable": {
+    "baseline": {
+      "n": 24,
+      "exact": 17,
+      "held": 3,
+      "correct_review": 0,
+      "wrong_accepted": 4,
+      "wrong_write": 4,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 42,
+      "gained": 0,
+      "lost": 0,
+      "median_active_s": 1.004505,
+      "holds": {
+        "context_mismatch": 3
+      }
+    },
+    "scope": {
+      "n": 24,
+      "exact": 15,
+      "held": 8,
+      "correct_review": 0,
+      "wrong_accepted": 1,
+      "wrong_write": 1,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 42,
+      "gained": 0,
+      "lost": 2,
+      "median_active_s": 1.0045135205,
+      "holds": {
+        "multiple_edits": 2,
+        "wrong_target_or_old_line": 2,
+        "unknown_or_ambiguous_key": 4
+      }
+    },
+    "checked": {
+      "n": 24,
+      "exact": 15,
+      "held": 9,
+      "correct_review": 0,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 42,
+      "gained": 0,
+      "lost": 2,
+      "median_active_s": 1.0045117289999999,
+      "holds": {
+        "multiple_edits": 2,
+        "wrong_target_or_old_line": 2,
+        "condition_not_met": 1,
+        "unknown_or_ambiguous_key": 4
+      }
+    },
+    "scoped": {
+      "n": 24,
+      "exact": 17,
+      "held": 7,
+      "correct_review": 0,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 30,
+      "gained": 3,
+      "lost": 3,
+      "median_active_s": 0.37308712399999994,
+      "holds": {
+        "value_mismatch": 3,
+        "unknown_or_ambiguous_key": 4
+      }
+    },
+    "rules": {
+      "n": 24,
+      "exact": 20,
+      "held": 4,
+      "correct_review": 0,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 0,
+      "gained": 5,
+      "lost": 2,
+      "median_active_s": 1.2042000000000302e-05,
+      "holds": {
+        "unknown_or_ambiguous_key": 4
+      }
+    }
+  },
+  "needs_review": {
+    "baseline": {
+      "n": 8,
+      "exact": 0,
+      "held": 1,
+      "correct_review": 1,
+      "wrong_accepted": 7,
+      "wrong_write": 7,
+      "wrong_no_write": 0,
+      "outside_target": 7,
+      "lost_other_edit": 0,
+      "calls": 11,
+      "gained": 0,
+      "lost": 0,
+      "median_active_s": 0.4843952500000003,
+      "holds": {
+        "missing_section": 1
+      }
+    },
+    "scope": {
+      "n": 8,
+      "exact": 0,
+      "held": 8,
+      "correct_review": 8,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 11,
+      "gained": 0,
+      "lost": 0,
+      "median_active_s": 0.4844014790000003,
+      "holds": {
+        "unknown_or_ambiguous_section": 2,
+        "unknown_or_ambiguous_key": 2,
+        "unrecognized_clause": 3,
+        "negative_result": 1
+      }
+    },
+    "checked": {
+      "n": 8,
+      "exact": 0,
+      "held": 8,
+      "correct_review": 8,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 11,
+      "gained": 0,
+      "lost": 0,
+      "median_active_s": 0.4844006460000003,
+      "holds": {
+        "unknown_or_ambiguous_section": 2,
+        "unknown_or_ambiguous_key": 2,
+        "unrecognized_clause": 3,
+        "negative_result": 1
+      }
+    },
+    "scoped": {
+      "n": 8,
+      "exact": 0,
+      "held": 8,
+      "correct_review": 8,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 0,
+      "gained": 0,
+      "lost": 0,
+      "median_active_s": 1.4666499999996252e-05,
+      "holds": {
+        "unknown_or_ambiguous_section": 2,
+        "unknown_or_ambiguous_key": 2,
+        "unrecognized_clause": 3,
+        "negative_result": 1
+      }
+    },
+    "rules": {
+      "n": 8,
+      "exact": 0,
+      "held": 8,
+      "correct_review": 8,
+      "wrong_accepted": 0,
+      "wrong_write": 0,
+      "wrong_no_write": 0,
+      "outside_target": 0,
+      "lost_other_edit": 0,
+      "calls": 0,
+      "gained": 0,
+      "lost": 0,
+      "median_active_s": 8.812999999999876e-06,
+      "holds": {
+        "unknown_or_ambiguous_section": 2,
+        "unknown_or_ambiguous_key": 2,
+        "unrecognized_clause": 3,
+        "negative_result": 1
+      }
+    }
+  }
+}

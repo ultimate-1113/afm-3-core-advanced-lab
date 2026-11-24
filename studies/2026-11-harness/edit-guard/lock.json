@@ -1,0 +1,20 @@
+{
+  "design.md": "3fbffe6e0033f780d44f97e435f29f806fa04db52ab82b54d805a02f2aff65e6",
+  "guard.py": "eaf142e4e9cfe8bb23b10be2c78530ddb21a2ac9524aa6402b1a76111620a3a0",
+  "study.py": "b2f9c410de6f0d6843191b901e80b0d29bb4075198caf1fa46e32109c112a9cc",
+  "panel.py": "1fe17a19ffcdfb089ab33fffb7987b5870768af00f06b151a65f1bb96ae21733",
+  "model.py": "9f23047ea09e6375211d5ca6f2f52458ed97f6bc4687918310abbf2d5b00a000",
+  "apply_edit.py": "e81f27bc1b1d9e34f3907702b6a458b8f9df9505093248fd8efc54909e8a3a7f",
+  "fixtures/inputs.jsonl": "bd3bbcaad707af455e87840f059938e0808e99c993b1ef3aef1eead95f6e6845",
+  "fixtures/answers.jsonl": "a7c1d2ac08f3db6d11cd7615443d1b69fdd6ac61c02924ccf8904f86761844ad",
+  "../edits/fixtures/inputs.jsonl": "73a20d40c2c1598a7b1b37a18c5e8d8d57f140bc236a91357d444d419f79bfe1",
+  "../edits/fixtures/answers.jsonl": "ceccb9f3ac702ceea6b52fbf4eb89f279726e74c18ecd62af5b80a8518992bb9",
+  "../edits/results/calls.jsonl": "99e7634d092083b7adf809ce5b72ce4e156be74e82e61628c85256cc63fae945",
+  "../edits/sheet.py": "39a7461f4c3d737e32aef9b06806a9b2add883cabf7179aea9d11b99eb797956",
+  "../run.py": "c6a0fba6794c0325f8b4e56829337c3755e6e6a48e1a5ed7473c85a14302377a",
+  "../protocol.py": "439f95d40113cfae9b1cc8fb4bcf5487d898d74d7f37010200c8ec37953618bc",
+  "../common.py": "0dddf5c58f92d340ada01d24664615c67b7fe40a142716a33a80aa3ab053408b",
+  "../../2026-11/fm_client.py": "b7fbb33c6c9090eb6927ef96901d5552bb0e62b6da78a7de8f4699f44701f5ad",
+  "../../2026-11/tasks.py": "2ae3f6d52e0ed1a5996be8a04d47b5af392add9e47da1a2dca0579d3bc025ca6",
+  "../../2026-11/fixtures.py": "47ae7852542d91777b34279ab4d7b1ee9b90a46ab4a5bc1157e50a56e0d7b8c1"
+}
