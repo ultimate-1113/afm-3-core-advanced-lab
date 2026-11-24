@@ -2,7 +2,11 @@
 
 Preliminary findings and a reproducible command-line test app for **AFM 3 Core Advanced**. An independent project using Apple's public FoundationModels APIs, official Python SDK, and `fm` CLI. Apple does not sponsor or endorse this project.
 
-AFM 3 Core Advancedの用途探索・品質調整・呼び出し経路・背景負荷を調べた先行調査です。SwiftのJSONLテストアプリとPythonの検証スクリプトを含みます。別モデルの比較・利用は行っていません。
+2026年10月のAFM 3 Core Advancedの用途探索・品質調整・呼び出し経路・背景負荷を調べた先行調査です。SwiftのJSONLテストアプリとPythonの検証スクリプトを含みます。別モデルの比較・利用は行っていません。
+
+## 2026年11月の追補
+
+[Core Advancedの再検証とAFM 3 Cloudの初回評価](studies/2026-11/README.md)では、macOS 27.2.1で10月の192試行を再現し、日本語の予定抽出・納品照合・表更新・長文議事録を調べています。下記は10月の環境・結果です。
 
 ## Preliminary findings
 

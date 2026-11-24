@@ -1,0 +1,22 @@
+{
+  "commit": "f07f88bb36edb2cebd9ba17eb5f6fc0f51b682be",
+  "runner_sha256": "08fa89c4a940da3bcf9066e371850bb0d8fb81dffffa00e8deb1e25e8a4cf871",
+  "inputs": {
+    "scripts/lab.py": "5e35209e1cb780d0d2796733593e1ec243fcda65f6f986f8db9da3ee0c0cd0ec",
+    "data/regressions.jsonl": "63996755efd200fe22c765cf900faa8be68813baebe22c65635590f087fb4bec",
+    "data/extraction-heldout.jsonl": "1c100b8a06db94bbb52a4c1cf3b301a47e922f14f1a80608d1064272134cad7c",
+    "data/table-heldout.jsonl": "76bbc9f8de11fc676255fbfb373d19279fb149566dd7461e0c0af9673c3f3dae",
+    "data/diff-heldout.jsonl": "a021b32c43e76eea4d4ff22370addb7bb05a1377b22a9bc20f035a840f775566",
+    "reports/selected-methods.json": "fccb4fd1eccea875274dbb8f7ea75b30dcda607692f194be7821dd32ebda56d6"
+  },
+  "model": {
+    "available": true,
+    "context": 8192,
+    "guided": true,
+    "reasoning": false,
+    "tools": true,
+    "variant": "AFM 3 Core Advanced",
+    "vision": true
+  },
+  "runner_version": 3
+}

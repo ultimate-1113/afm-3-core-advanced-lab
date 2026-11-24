@@ -1,0 +1,20 @@
+{
+  "legacy_trials_regraded": 192,
+  "october_pass_results_reproduced": 192,
+  "october_response_strings_identical": 127,
+  "case_method_results_regraded": 406,
+  "pending_case_methods": 0,
+  "shared_case_methods_checked_for_identical_initial_inputs": 62,
+  "different_initial_inputs": 0,
+  "saved_pcc_conditions_reconstructed_without_inference": 71,
+  "public_synthetic_pngs": 40,
+  "observed_png_chunk_types": [
+    "IHDR",
+    "IDAT",
+    "IEND"
+  ],
+  "png_metadata_findings": 0,
+  "source_map": "sources.md",
+  "private_research_sources": 30,
+  "public_output_bodies_retokenized": 413
+}
